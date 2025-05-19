@@ -10,10 +10,10 @@ Content-Type: application/json
 }
 
 ### View employee
-GET http://localhost:3000/view/<paste_id_here>
+GET http://localhost:3000/view/
 
 ### Update employee
-PUT http://localhost:3000/update/<paste_id_here>
+PUT http://localhost:3000/update/
 Content-Type: application/json
 
 {
@@ -21,4 +21,4 @@ Content-Type: application/json
 }
 
 ### Delete employee
-DELETE http://localhost:3000/delete/<paste_id_here>
+DELETE http://localhost:3000/delete/
