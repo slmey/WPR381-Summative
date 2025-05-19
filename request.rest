@@ -1,0 +1,24 @@
+### Add employee
+POST http://localhost:3000/add
+Content-Type: application/json
+
+{
+  "name": "Alex",
+  "surname": "Mahlangu",
+  "age": 22,
+  "salary": 8000
+}
+
+### View employee
+GET http://localhost:3000/view/<paste_id_here>
+
+### Update employee
+PUT http://localhost:3000/update/<paste_id_here>
+Content-Type: application/json
+
+{
+  "salary": 9500
+}
+
+### Delete employee
+DELETE http://localhost:3000/delete/<paste_id_here>
